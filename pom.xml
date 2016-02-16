@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.slikel</groupId>
+    <artifactId>lda-driver</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <properties>
+        <jama.version>1.0.3</jama.version>
+        <IKAnalyzer.version>2012_FF</IKAnalyzer.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>gov.nist.math</groupId>
+            <artifactId>jama</artifactId>
+            <version>${jama.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.wltea</groupId>
+            <artifactId>IKAnalyzer</artifactId>
+            <version>${IKAnalyzer.version}</version>
+        </dependency>
+    </dependencies>
+
+    <!--<dependencies>-->
+    <!--<dependency>-->
+    <!--<groupId>org.scala-lang</groupId>-->
+    <!--<artifactId>scala-library</artifactId>-->
+    <!--</dependency>-->
+
+    <!--<dependency>-->
+    <!--<groupId>org.scala-lang</groupId>-->
+    <!--<artifactId>scala-compiler</artifactId>-->
+    <!--</dependency>-->
+    <!--</dependencies>-->
+
+    <!--<build>-->
+    <!--<sourceDirectory>src/main/scala</sourceDirectory>-->
+
+    <!--<plugins>-->
+    <!--<plugin>-->
+    <!--<groupId>org.codehaus.mojo</groupId>-->
+    <!--<artifactId>build-helper-maven-plugin</artifactId>-->
+    <!--<version>1.9.1</version>-->
+    <!--<executions>-->
+    <!--<execution>-->
+    <!--<id>add-source</id>-->
+    <!--<phase>generate-sources</phase>-->
+    <!--<goals>-->
+    <!--<goal>add-source</goal>-->
+    <!--</goals>-->
+    <!--<configuration>-->
+    <!--<sources>-->
+    <!--<source>${basedir}/src/main/scala</source>-->
+    <!--<source>${basedir}/src/main/java</source>-->
+    <!--</sources>-->
+    <!--</configuration>-->
+    <!--</execution>-->
+    <!--</executions>-->
+    <!--</plugin>-->
+
+    <!--</plugins>-->
+    <!--</build>-->
+
+</project>

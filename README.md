@@ -1,2 +1,2 @@
 # algorithm
-scala版本的算法库，包括预测、异常点检测、周期发现
+LDA算法，支持自定义格式化输出器（继承org.slikel.algorithm.lda.Writeable即可自定义）
